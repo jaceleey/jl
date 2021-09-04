@@ -1,0 +1,7 @@
+n=int(input("enter the number of subjects:"))
+score_list= list(map(int,input("enter the scores:").split()))
+m=max(socre_list)
+print(m)
+for i in range(n):
+    score_list[i]= score_list[i]/m*100
+print(sum(score_list)/n
